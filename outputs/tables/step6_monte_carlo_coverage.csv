@@ -1,0 +1,4 @@
+Method,Coverage
+Normal-theory CLT,0.701
+Delta-method CLT,0.925
+Efron Bootstrap,0.926
