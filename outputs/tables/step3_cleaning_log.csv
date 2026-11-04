@@ -2,8 +2,8 @@ Date,Bank,Magnitude,Verified_Market_Event
 2020-03-09,DBS,-0.0838543406297905,Global COVID-19 spread and oil-price crash (Black Monday)
 2020-03-09,OCBC,-0.0699725419215821,Global COVID-19 spread and oil-price crash (Black Monday)
 2020-03-09,UOB,-0.07609913512736666,Global COVID-19 spread and oil-price crash (Black Monday)
-2020-03-19,OCBC,-0.06353227469312381,Bank-specific market or corporate earnings/dividend adjustment event retained for review
-2020-03-19,UOB,-0.05512765976351294,Bank-specific market or corporate earnings/dividend adjustment event retained for review
+2020-03-19,OCBC,-0.06353227469312381,"Not independently verified: possible bank-specific market, corporate earnings, or dividend adjustment event"
+2020-03-19,UOB,-0.05512765976351294,"Not independently verified: possible bank-specific market, corporate earnings, or dividend adjustment event"
 2020-03-23,DBS,-0.07309181357050655,COVID-19 sell-off floor amid emergency policy support
 2020-03-23,OCBC,-0.06805357199511261,COVID-19 sell-off floor amid emergency policy support
 2020-03-23,UOB,-0.07613856362507038,COVID-19 sell-off floor amid emergency policy support
@@ -13,12 +13,12 @@ Date,Bank,Magnitude,Verified_Market_Event
 2020-03-25,DBS,0.0643323577946692,Global stimulus rebound rally
 2020-03-25,OCBC,0.06746753603610497,Global stimulus rebound rally
 2020-03-25,UOB,0.06287474480384161,Global stimulus rebound rally
-2020-06-03,DBS,0.07573207402586514,Bank-specific market or corporate earnings/dividend adjustment event retained for review
-2020-06-03,OCBC,0.05151803439353196,Bank-specific market or corporate earnings/dividend adjustment event retained for review
-2020-06-03,UOB,0.06355167488368177,Bank-specific market or corporate earnings/dividend adjustment event retained for review
+2020-06-03,DBS,0.07573207402586514,"Not independently verified: possible bank-specific market, corporate earnings, or dividend adjustment event"
+2020-06-03,OCBC,0.05151803439353196,"Not independently verified: possible bank-specific market, corporate earnings, or dividend adjustment event"
+2020-06-03,UOB,0.06355167488368177,"Not independently verified: possible bank-specific market, corporate earnings, or dividend adjustment event"
 2020-11-10,DBS,0.06126555759057966,COVID-19 vaccine optimism continuation rally
 2024-08-05,DBS,-0.059510194075361345,Yen carry-trade unwind and global equity sell-off
 2024-08-05,OCBC,-0.05414224065273429,Yen carry-trade unwind and global equity sell-off
 2024-08-05,UOB,-0.05654874130080331,Yen carry-trade unwind and global equity sell-off
-2024-11-07,DBS,0.06310081441463361,Bank-specific market or corporate earnings/dividend adjustment event retained for review
-2024-11-08,UOB,0.06931319627585107,Bank-specific market or corporate earnings/dividend adjustment event retained for review
+2024-11-07,DBS,0.06310081441463361,"Not independently verified: possible bank-specific market, corporate earnings, or dividend adjustment event"
+2024-11-08,UOB,0.06931319627585107,"Not independently verified: possible bank-specific market, corporate earnings, or dividend adjustment event"

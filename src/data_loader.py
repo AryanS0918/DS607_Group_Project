@@ -26,7 +26,7 @@ EVENT_NOTES = {
 
 def verified_market_event(date):
     key = str(date.date()) if hasattr(date, 'date') else str(date)[:10]
-    return EVENT_NOTES.get(key, 'Bank-specific market or corporate earnings/dividend adjustment event retained for review')
+    return EVENT_NOTES.get(key, 'Not independently verified: possible bank-specific market, corporate earnings, or dividend adjustment event')
 
 def download_or_load_raw():
     for directory in (RAW, INTERIM, PROCESSED, FIGURES, TABLES):

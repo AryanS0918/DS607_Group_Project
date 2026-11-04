@@ -10,7 +10,7 @@ FIGURES = ROOT / 'outputs' / 'figures'
 
 slides = [
     ('1', 'Heavy Tails & Inference in DBS, OCBC and UOB', [
-        'Aryan Singh, Jaanvi, Nikhil — MDSE DS607 group coursework',
+        'Aryan Singh, Jaanvi Bajaj, Nikhil Balaji — MDSE DS607 group coursework',
         'Singapore banking pillars: tail-risk choices affect capital reserves and risk limits.',
         'Research question: are 2014–2024 daily returns Normal, and do CLT intervals agree with bootstrap intervals?'
     ]),
@@ -22,13 +22,13 @@ slides = [
     ]),
     ('3', 'Exploratory diagnostics: heavy tails', [
         'Daily return series exhibit volatility clustering and COVID/rate-hike regime shifts.',
-        'Excess kurtosis is approximately 5; extreme minima are near -7σ to -9σ.',
+        'Excess kurtosis is approximately 5; extreme minima are about -7σ (actual range -6.9σ to -7.4σ).',
         'Normal Q-Q and lower-tail log-CDF plots reveal departures in the extreme left tail.'
     ]),
     ('4', 'CLT vs bootstrap intervals', [
         'Mean CLT and bootstrap intervals agree closely.',
         'Normal-theory volatility intervals ignore excess kurtosis and understate uncertainty.',
-        'Under Student-t nu=5: Delta and Efron bootstrap coverage are ~92–95%; Normal-theory coverage is ~59–80%.',
+        'Under Student-t nu=5: Delta coverage is 92.5%, Efron bootstrap 92.6%, and Normal-theory 70.1%.',
         'Q01 is reported as an empirical 1% quantile, not a complete VaR model.'
     ]),
     ('5', 'Normal vs Student-t estimation & fit', [
@@ -50,8 +50,7 @@ slides = [
     ('8', 'Appendix: Bayesian extreme co-crashes', [
         'Three unordered pairs: DBS–OCBC, DBS–UOB, OCBC–UOB.',
         'Flat Beta-Binomial agrees closely with Wald and bootstrap intervals.',
-        'Skeptical Beta(2,18) illustrates prior sensitivity.',
-        'Discussant: 1 strength | 1 methodological concern | 1 concrete suggestion'
+        'Skeptical Beta(2,18) illustrates prior sensitivity.'
     ]),
 ]
 
@@ -76,5 +75,5 @@ with PdfPages(OUT / 'DS607 GP 01549747 slides.pdf') as pdf:
         image_name = figure_candidates.get(number)
         if image_name and (FIGURES / image_name).exists():
             im = plt.imread(FIGURES / image_name)
-            iax = fig.add_axes([0.62, 0.12, 0.34, 0.48]); iax.imshow(im); iax.axis('off')
+            iax = fig.add_axes([0.56, 0.15, 0.40, 0.58]); iax.imshow(im); iax.axis('off')
         pdf.savefig(fig, bbox_inches='tight'); plt.close(fig)
