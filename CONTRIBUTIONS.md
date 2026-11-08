@@ -2,12 +2,13 @@
 
 This project was equally divided among the three members. Aryan Singh originated the project idea and led the distribution-fitting work, while Jaanvi Bajaj led descriptive and interval analysis and Nikhil Balaji led data preparation and dependence analysis.
 
-## Aryan Singh — distribution fitting and presentation (approximately one-third)
-- Defined the project idea, research direction, and Normal-versus-Student-t analysis plan.
-- Implemented and reviewed Student-t method-of-moments and maximum-likelihood fitting in `src/distribution_fitting.py`.
-- Explained and corrected the Student-t scale formula and degrees-of-freedom interpretation in the README and presentation.
-- Produced the Normal-versus-Student-t fit tables and tail diagnostic figures.
-- Fixed slide layout, removed the presentation placeholder, and added render instructions to the repository map.
+
+## Aryan Singh — project conception, distribution modeling, and tail diagnostics (approximately one-third)
+* Originated the project concept, empirical research direction, and the Normal-versus-Student-t analytical framework.
+* Implemented and validated Student-t method-of-moments (MoM) and maximum-likelihood estimation (MLE) fitting routines in `src/distribution_fitting.py` (and the corresponding distribution-fitting notebook).
+* Derived and reconciled the Student-t scale parameterization and degrees-of-freedom tail-heaviness interpretation across the codebase, README, and presentation.
+* Generated the parametric goodness-of-fit comparison tables and empirical tail diagnostic figures comparing Gaussian vs. heavy-tailed return assumptions.
+* Structured the presentation build workflow, standardized slide layouts, and documented Quarto/revealjs rendering instructions in the repository map.
 
 ## Jaanvi Bajaj — description and intervals (approximately one-third)
 - Produced summary statistics, histograms, ECDF, KDE, and Q-Q exploratory figures in the notebooks and pipeline.
